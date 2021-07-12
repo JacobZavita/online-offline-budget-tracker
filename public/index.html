@@ -86,7 +86,13 @@
       amount: document.getElementById('t-amount').value
     })
     .then(() => alert('Transaction Added'))
-    .catch(err => console.error(err))
+    .catch(err => {
+      console.error(err)
+      saveRecord({
+        name: document.getElementById('t-name').value,
+        amount: document.getElementById('t-amount').value
+      })
+    })
   })
 
     document.getElementById('sub-btn').addEventListener('click', event => {
@@ -96,7 +102,13 @@
       amount: document.getElementById('t-amount').value
     })
     .then(() => alert('Transaction Subtracted'))
-    .catch(err => console.error(err))
+    .catch(err => {
+      console.error(err)
+      saveRecord({
+        name: document.getElementById('t-name').value,
+        amount: document.getElementById('t-amount').value
+      })
+    })
   })
 
   </script>
