@@ -1,7 +1,7 @@
 # online-offline-budget-tracker
 
 Deployed application: https://murmuring-mountain-02820.herokuapp.com/
-Github Repo: https://github.com/alwayssmellitfirst/online-offline-budget-tracker
+Github Repo: https://github.com/JacobZavita/online-offline-budget-tracker
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Description
 Let user track income and expenses while traveling whether they're online or offline.
