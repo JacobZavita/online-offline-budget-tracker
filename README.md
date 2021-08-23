@@ -3,8 +3,8 @@
 Deployed application: https://murmuring-mountain-02820.herokuapp.com/
 Github Repo: https://github.com/JacobZavita/online-offline-budget-tracker
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-## Description
-Let user track income and expenses while traveling whether they're online or offline.
+# Description
+This lets the user track income and expenses whether they're online or offline. I built this during my full stack bootcamp at UC Irvine while learning about online/offline progressive web apps. The problem this solves for the user is that they can keep track of their basic finances while traveling without reliable internet access. The app will save their changes regardless of whether they are online or not. The main thing I learned while building this is that it's realtively easy to give an application online/offline capabilities and that it ought to be implemented in pretty much every application.
 
 # Table of Contents
 * [Installation](#installation)
@@ -14,14 +14,14 @@ Let user track income and expenses while traveling whether they're online or off
 * [Tests](#tests)
 * [Questions](#questions)
 # Installation
-axios, compression, express, lite-server, mongoose, morgan
+ npm i axios compression express lite-server mongoose morgan
 # Usage
-Navigate to website and use app
+Navigate to website and use app. App will save all changes locally then update on the database once reconnected to the internet.
 # License
 This project is licensed under the MIT terms.
 # Contributing
-Contributors: Jacob Zavita - alwayssmellitfirst
+Contributors: Jacob Zavita
 # Tests
 The following is needed to test the project: npx nodemon
 # Questions
-If you have questions, suggestions, or ideas about the repo, open an issue or contact https://github.com/alwayssmellitfirst or email jacobzavita@gmail.com
+If you have questions, suggestions, or ideas about the repo, open an issue or contact https://github.com/JacobZavita or email jacobzavita@gmail.com
