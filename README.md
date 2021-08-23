@@ -6,6 +6,8 @@ Github Repo: https://github.com/JacobZavita/online-offline-budget-tracker
 # Description
 This lets the user track income and expenses whether they're online or offline. I built this during my full stack bootcamp at UC Irvine while learning about online/offline progressive web apps. The problem this solves for the user is that they can keep track of their basic finances while traveling without reliable internet access. The app will save their changes regardless of whether they are online or not. The main thing I learned while building this is that it's realtively easy to give an application online/offline capabilities and that it ought to be implemented in pretty much every application.
 
+![Screen Shot 2021-08-23 at 10 06 47 AM](https://user-images.githubusercontent.com/81720959/130488359-41da66c1-812b-48ad-893b-cfe2c849a4d6.png)
+
 # Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
